@@ -1,4 +1,4 @@
-# @nuxtjs/named-routes
+# nuxtjs-named-routes
 
 > A Nuxt.js module that sets router named routes from nuxt.config file
 ## Features
@@ -7,17 +7,17 @@
 - Sets router named routes from nuxt.config file
 ## Setup
 
-1. Add `@nuxtjs/named-routes` dependency to your project
+1. Add `nuxtjs-named-routes` dependency to your project
 ```bash
-yarn add @nuxtjs/named-routes # or npm install @nuxtjs/named-routes
+yarn add nuxtjs-named-routes # or npm install nuxtjs-named-routes
 ```
 
-2. Add `@nuxtjs/named-routes` to the `modules` section of `nuxt.config.ts`
+2. Add `nuxtjs-named-routes` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
   modules: [
-    '@nuxtjs/named-routes'
+    'nuxtjs-named-routes'
   ],
   namedRoutes: {
     routes: {
