@@ -2,7 +2,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
     modules: [
-        '@nuxtjs/named-routes'
+        'nuxtjs-named-routes'
     ],
     namedRoutes: {
         routes: {

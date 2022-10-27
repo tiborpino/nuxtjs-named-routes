@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/named-routes",
+  "name": "nuxtjs-named-routes",
   "author": "Tibor Pino <tibor.pino@freshidea.sk>",
   "version": "1.0.1",
   "description": "A Nuxt.js module that sets router named routes from nuxt.config file",

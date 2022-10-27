@@ -15,7 +15,7 @@ const logger = useLogger('nuxt:named-routes')
 
 export default defineNuxtModule<ModuleOptions>({
     meta: {
-        name: '@nuxtjs/named-routes',
+        name: 'nuxtjs-named-routes',
         configKey: 'namedRoutes'
     },
     defaults: {
