@@ -1,9 +1,14 @@
 {
   "name": "@nuxtjs/named-routes",
-  "version": "1.0.2",
+  "author": "Tibor Pino <tibor.pino@freshidea.sk>",
+  "version": "1.0.1",
   "description": "A Nuxt.js module that sets router named routes from nuxt.config file",
   "license": "MIT",
   "type": "module",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/tiborpino/nuxtjs-named-routes"
+    },
   "exports": {
     ".": {
       "import": "./dist/module.mjs",
