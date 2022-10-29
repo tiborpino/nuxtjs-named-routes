@@ -21,14 +21,26 @@ export default defineNuxtConfig({
   ],
   namedRoutes: {
     routes: {
-        home: {
-            path: '/home',
+        'custom-key': {
+            path: '/custom-url-for-homepage',
             file: '/pages/homepage.vue'
         }
     }
   }
 }
 ```
+
+3. Use the named route
+```js
+<NuxtLink :to={name: 'custom-key'}>Link to to homepage</NuxtLink>
+```
+
+The code above will generate HTML link
+
+```html
+<a href="/custom-url-for-homepage">Link to to homepage</a>
+```
+
 ## Options
 
 ### routes
@@ -38,8 +50,10 @@ export default defineNuxtConfig({
 
 ```js
 routes: {
-  path: '/home',
-  file: '/pages/homepage.vue'
+  'named-route-key': {
+    path: '/url-path',
+    file: '/pages/homepage.vue'
+}
 }
 ```
 
