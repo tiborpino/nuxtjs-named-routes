@@ -32,13 +32,13 @@ export default defineNuxtConfig({
 
 3. Use the named route
 ```js
-<NuxtLink :to="{name: 'custom-key'}">Link to to homepage</NuxtLink>
+<NuxtLink :to="{name: 'custom-key'}">Link to the homepage</NuxtLink>
 ```
 
 The code above will generate HTML link
 
 ```html
-<a href="/custom-url-for-homepage">Link to to homepage</a>
+<a href="/custom-url-for-homepage">Link to the homepage</a>
 ```
 
 ## Options
